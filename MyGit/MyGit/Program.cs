@@ -14,6 +14,7 @@ namespace MyGit
         [STAThread]
         static void Main()
         {
+            Console.WriteLine("Hej hej!");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
